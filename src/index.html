@@ -16,10 +16,11 @@
     <script src="https://kit.fontawesome.com/07e7077634.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="pl-40 pr-20">
-    <header>
+<body class=" max-w-9/10 mx-auto  md:pl-30 lg:pl-40">
+    <main>
+        <header>
         <!-- container -->
-        <section class="flex justify-between">
+        <section class="md:flex lg:flex justify-between">
             <!-- heading content -->
             <div>
                 <h1 class="text-5xl sm:text-3xl lg:text-7xl font-extrabold pt-10">It's good <br>tea time at The <br> Tea
@@ -31,13 +32,13 @@
                     More <i class="fa-solid fa-arrow-right -rotate-45 "></i> </button>
             </div>
             <!-- immage content -->
-            <div class="relative">
+            <div class="relative pr-20">
                 <!--immage  -->
                 <div>
                     <img src="../images/banner.png" alt="">
                 </div>
                 <!-- content -->
-                <div class="flex items-center shadow-lg bg-white rounded-lg absolute top-95 left-30 px-5 py-3">
+                <div class="flex items-center shadow-lg bg-white rounded-lg md:absolute top-95 left-30 px-5 py-3">
                     <!-- icon -->
                     <div><i class="fa-solid fa-star text-3xl font-extrabold 
                         bg-gradient-to-r from-[#FFF082] via-[#FFC850] to-[#FFDC64] 
@@ -48,9 +49,37 @@
                     </div>
                 </div>
             </div>
-
         </section>
     </header>
+    <!-- Featured Product Section -->
+        <section class="py-8 lg:py-20 pr-40">
+            <h1 class="text-3xl md:text-4xl text-center mb-3 font-extrabold">Our Featured Products</h1>
+            <p class="text-base text-gray-500 font-medium max-w-8/10 text-center mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 text-center py-8">
+                <div class="shadow-md bg-gray-50 rounded-xl py-3">
+                    <img class="mx-auto" src="../images/tea-1.png" alt="">
+                    <h1 class="text-xl font-extrabold">Milk Tea</h1>
+                    <p class=" max-w-7/10 mx-auto text-center">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="shadow-md bg-gray-50 rounded-xl py-3">
+                    <img class="mx-auto" src="../images/tea-2.png" alt="">
+                    <h1 class="text-xl font-extrabold">Milk Tea</h1>
+                    <p class="max-w-7/10 mx-auto text-center">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="shadow-md bg-gray-50 rounded-xl py-3">
+                    <img class="mx-auto" src="../images/tea-3.png" alt="">
+                    <h1 class="text-xl font-extrabold">Milk Tea</h1>
+                    <p class=" max-w-7/10 mx-auto text-center">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="shadow-md bg-gray-50 rounded-xl py-3">
+                    <img class="mx-auto" src="../images/tea-4.png" alt="">
+                    <h1 class="text-xl font-extrabold">Milk Tea</h1>
+                    <p class=" max-w-7/10 mx-auto text-center">Creamer could be replaced by fresh milk</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
